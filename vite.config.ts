@@ -6,6 +6,9 @@ import path from 'path'
 export default defineConfig({
   base: '/TE-Weather-App-V2/',
   plugins: [react()],
+  build: {
+    cssMinify: false,
+  },
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),

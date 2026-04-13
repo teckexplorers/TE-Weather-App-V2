@@ -4,7 +4,7 @@ import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/TE-Weather-App-V2/',
+  base: '/',
   plugins: [react()],
   build: {
     cssMinify: false,
